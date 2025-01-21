@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "curl -vsLk https:\/\/s3plus-bj02.sankuai.com\/pulic-tsp-product-stock\/arthas-install.sh -o arthas-install.sh && bash arthas-install.sh",
+    "uid" : "A37EEB2A-A0B5-4CC3-9B07-401392F30AF5",
+    "name" : "arthas",
+    "keyword" : "arthas"
+  }
+}

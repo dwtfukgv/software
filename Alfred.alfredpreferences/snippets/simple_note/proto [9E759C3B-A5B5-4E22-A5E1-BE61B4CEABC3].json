@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "protoc -I .\/ --proto_path=.\/proto --java_out=.\/src\/main\/java .\/",
+    "uid" : "9E759C3B-A5B5-4E22-A5E1-BE61B4CEABC3",
+    "name" : "proto",
+    "keyword" : "proto"
+  }
+}

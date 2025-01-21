@@ -1,0 +1,245 @@
+"" Source your .vimrc actionlist
+"source ~/.vimrc
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=10
+
+set easymotion
+set sneak
+
+" Do incremental searching.
+set incsearch
+
+set argtextobj
+set surround
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+"当你键入搜索词时，vim会高亮显示与搜索词匹配的文本
+set hlsearch
+set ignorecase
+set notimeout
+"--设置相对行号 和 当前行的绝对行号
+set number
+
+"--设置返回normal模式时回到英文输入法
+" set keep-english-in-normal-and-restore-in-insert
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+"切换标签页
+nmap K <action>(NextTab)
+nmap J <action>(PreviousTab)
+nmap H :action PrevSplitter<CR>
+nmap L :action NextSplitter<CR>
+
+
+
+let mapleader = " "
+vmap <leader>y "+y
+nmap <leader>yy "+yy
+
+
+nmap mu <action>(MethodUp)
+nmap md <action>(MethodDown)
+nmap gi <action>(GotoImplementation)
+nmap gu <action>(GotoSuperMethod)
+nmap gt <action>(com.intellij.plugins.thrift.editor.GoToThriftDefinition)
+nmap g1 <action>(GoToTab1)
+nmap g2 <action>(GoToTab2)
+nmap g3 <action>(GoToTab3)
+nmap g4 <action>(GoToTab4)
+nmap g5 <action>(GoToTab5)
+nmap g6 <action>(GoToTab6)
+nmap g7 <action>(GoToTab7)
+nmap g8 <action>(GoToTab8)
+nmap g9 <action>(GoToTab9)
+nmap g$ <action>(GoToLastTab)
+nmap gmm <action>(Bookmarks.Goto)
+nmap mm <action>(ToggleBookmark)
+nmap gk0 <action>(GotoBookmark0)
+nmap gk1 <action>(GotoBookmark1)
+nmap gk2 <action>(GotoBookmark2)
+nmap gk3 <action>(GotoBookmark3)
+nmap gk4 <action>(GotoBookmark4)
+nmap gk5 <action>(GotoBookmark5)
+nmap gk6 <action>(GotoBookmark6)
+nmap gk7 <action>(GotoBookmark7)
+nmap gk8 <action>(GotoBookmark8)
+nmap gk9 <action>(GotoBookmark9)
+nmap gka <action>(GotoBookmarkA)
+nmap gkb <action>(GotoBookmarkB)
+nmap gkc <action>(GotoBookmarkC)
+nmap gkd <action>(GotoBookmarkD)
+nmap gke <action>(GotoBookmarkE)
+nmap gkf <action>(GotoBookmarkF)
+nmap gkg <action>(GotoBookmarkG)
+nmap gkh <action>(GotoBookmarkh)
+nmap gki <action>(GotoBookmarkI)
+nmap gkj <action>(GotoBookmarkJ)
+nmap gkk <action>(GotoBookmarkK)
+nmap gkl <action>(GotoBookmarkL)
+nmap gkm <action>(GotoBookmarkM)
+nmap gkn <action>(GotoBookmarkN)
+nmap gko <action>(GotoBookmarkO)
+nmap gkp <action>(GotoBookmarkP)
+nmap gkq <action>(GotoBookmarkQ)
+nmap gkr <action>(GotoBookmarkR)
+nmap gks <action>(GotoBookmarkS)
+nmap gkt <action>(GotoBookmarkT)
+nmap gku <action>(GotoBookmarkU)
+nmap gkv <action>(GotoBookmarkV)
+nmap gkw <action>(GotoBookmarkW)
+nmap gkx <action>(GotoBookmarkX)
+nmap gky <action>(GotoBookmarkY)
+nmap gkz <action>(GotoBookmarkZ)
+
+
+nmap t <action>(AceAction)
+nmap T <action>(AceAction)
+
+nmap <leader>ca <action>(CloseAllEditors)
+nmap <leader>cc :action CloseEditor<CR>
+nmap <leader>co :action CloseAllEditorsButActive<CR>
+nmap <leader>cr :action CloseAllReadonly<CR>
+nmap <leader>ct :action CloseProject<CR>
+nmap <leader>cl :action CloseAllToTheRight<CR>
+nmap <leader>ch :action CloseAllToTheLeft<CR>
+nmap <leader>cpr :action CopyReference<CR>
+nmap <leader>cpa :action CopyAbsolutePath<CR>
+nmap <leader>cpf :action CopyFileName<CR>
+nmap <leader>cpp :action CopyFileReference<CR>
+
+nnoremap <leader>dbg :action Debug<CR>
+nnoremap <leader>dbc :action DebugClass<CR>
+
+nmap <leader>dp :action Debugger.PopFrame<CR>
+nmap <leader>ee :action EvaluateExpression<CR>
+
+nmap <leader>bra :action Debugger.RemoveAllBreakpoints<CR>
+nmap <leader>brf :action Debugger.RemoveAllBreakpointsInFile<CR>
+nmap <leader>bv :action ViewBreakpoints<CR>
+nmap <leader>bp :action ToggleLineBreakpoint<CR>
+nmap <leader>bm :action XDebugger.MuteBreakpoints<CR>
+nmap <leader>bc :action RunToCursor<CR>
+
+" 定位当前文件位置
+nmap <leader>fl <action>(SelectInProjectView)
+" 查找动作
+nmap <leader>fa <action>(GotoAction)
+nmap <leader>ff <action>(GotoFile)
+nmap <leader>fc <action>(GotoClass)
+nnoremap <leader>fp :action ShowFilePath<CR>
+
+
+nmap <leader>gec :action GenerateConstructor<CR>
+nmap <leader>geg :action GenerateGetter<CR>
+nmap <leader>ges :action GenerateSetter<CR>
+nmap <leader>gea <action>(GenerateGetterAndSetter)
+nmap <leader>gee <action>(GenerateEquals)
+nmap <leader>get <action>(Actions.ActionsPlugin.GenerateToString)
+
+
+nmap <leader>nc <action>(NewClass)
+nmap <leader>nf <action>(NewFile)
+
+
+
+nmap <leader>nh :nohlsearch<CR>
+
+
+nnoremap <leader>mo :action OverrideMethods<CR>
+nnoremap <leader>mi :action ImplementMethods<CR>
+
+nmap <leader>ss <action>(ActivateStructureToolWindow)
+nmap <leader>st <action>(ActivateTerminalToolWindow)
+nmap <leader>hw <action>(HideActiveWindow)
+nmap <leader>sw <action>(SurroundWith)
+nmap <leader>sm <action>(ShowBookmarks)
+
+nnoremap <leader>mv :action ActivateMavenProjectsToolWindow<CR>
+nnoremap <leader>mrp :action Maven.ReimportProject<CR>
+nnoremap <leader>mra :action Maven.Reimport<CR>
+nnoremap <leader>msd :action Maven.DependencyGraphMenu<CR>
+
+
+nmap <leader>gta :action Annotate<CR>
+nnoremap <leader>gtp :action Git.Pull<CR>
+nnoremap <leader>gtc :action Git.ResolveConflicts<CR>
+nnoremap <leader>gtr :action Git.Reset<CR>
+nnoremap <leader>gts :action Git.Stash<CR>
+nnoremap <leader>gtu :action Git.Unstash<CR>
+nnoremap <leader>gtb :action Git.Branches<CR>
+nnoremap <leader>gtf :action Git.Fetch<CR>
+nnoremap <leader>gtd :action Git.CompareWithBranch<CR>
+nnoremap <leader>gtm :action Git.Merge<CR>
+nnoremap <leader>gth :action Vcs.Push<CR>
+
+nnoremap <leader>rs :action RestartIde<CR>
+nnoremap <leader>rot :action ReopenClosedTab<CR>
+nnoremap <leader>rcp :action Compile<CR>
+nnoremap <leader>rnc :action RunClass<CR>
+nnoremap <leader>rnf :action RunConfiguration<CR>
+nnoremap <leader>rna :action RunnerActions<CR>
+
+
+
+nnoremap <leader>snh :action sonic_plugin.hotSwapAction<CR>
+
+
+nmap <leader>wml <action>(MoveTabRight)
+nmap <leader>wmj <action>(MoveTabDown)
+nmap <leader>wcl <action>(SplitVertically)
+
+nmap <leader>wa <action>(UnsplitAll)
+nmap <leader>wu <action>(Unsplit)
+
+nnoremap <leader>amt :action ActivateMCopilotToolWindow<CR>
+nnoremap <leader>amv :action ActivateMavenToolWindow<CR>
+nnoremap <leader>asn :action ActivateSonicToolWindow<CR>
+nmap <leader>mk0 :action ToggleBookmark0<CR>
+nmap <leader>mk1 :action ToggleBookmark1<CR>
+nmap <leader>mk2 :action ToggleBookmark2<CR>
+nmap <leader>mk3 :action ToggleBookmark3<CR>
+nmap <leader>mk4 :action ToggleBookmark4<CR>
+nmap <leader>mk5 :action ToggleBookmark5<CR>
+nmap <leader>mk6 :action ToggleBookmark6<CR>
+nmap <leader>mk7 :action ToggleBookmark7<CR>
+nmap <leader>mk8 :action ToggleBookmark8<CR>
+nmap <leader>mk9 :action ToggleBookmark9<CR>
+nmap <leader>mka :action ToggleBookmarkA<CR>
+nmap <leader>mkb :action ToggleBookmarkB<CR>
+nmap <leader>mkc :action ToggleBookmarkC<CR>
+nmap <leader>mkd :action ToggleBookmarkD<CR>
+nmap <leader>mke :action ToggleBookmarkE<CR>
+nmap <leader>mkf :action ToggleBookmarkF<CR>
+nmap <leader>mkg :action ToggleBookmarkG<CR>
+nmap <leader>mkh :action ToggleBookmarkH<CR>
+nmap <leader>mki :action ToggleBookmarkI<CR>
+nmap <leader>mkj :action ToggleBookmarkJ<CR>
+nmap <leader>mkk :action ToggleBookmarkK<CR>
+nmap <leader>mkl :action ToggleBookmarkL<CR>
+nmap <leader>mkm :action ToggleBookmarkM<CR>
+nmap <leader>mkn :action ToggleBookmarkN<CR>
+nmap <leader>mko :action ToggleBookmarkO<CR>
+nmap <leader>mkp :action ToggleBookmarkP<CR>
+nmap <leader>mkq :action ToggleBookmarkQ<CR>
+nmap <leader>mkr :action ToggleBookmarkR<CR>
+nmap <leader>mks :action ToggleBookmarkS<CR>
+nmap <leader>mkt :action ToggleBookmarkT<CR>
+nmap <leader>mku :action ToggleBookmarkU<CR>
+nmap <leader>mkv :action ToggleBookmarkV<CR>
+nmap <leader>mkw :action ToggleBookmarkW<CR>
+nmap <leader>mkx :action ToggleBookmarkX<CR>
+nmap <leader>mky :action ToggleBookmarkY<CR>
+nmap <leader>mkz :action ToggleBookmarkZ<CR>
+
+
+nnoremap <leader>fxt :action PinActiveTab<CR>

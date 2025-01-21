@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "curl -vsLk https:\/\/s3plus.meituan.net\/v1\/mss_959de39f2c304efda7e611d549f6b2b5\/video\/tar_jar.sh -o tar_jar.sh && bash tar_jar.sh",
+    "uid" : "096E6C8B-2643-4B92-8E12-EE4F0B7D156B",
+    "name" : "tar_jar",
+    "keyword" : "tar_jar"
+  }
+}

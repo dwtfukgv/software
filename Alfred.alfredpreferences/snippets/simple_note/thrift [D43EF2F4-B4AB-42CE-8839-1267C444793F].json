@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "thrift -out .\/src\/main\/java --gen java .\/",
+    "uid" : "D43EF2F4-B4AB-42CE-8839-1267C444793F",
+    "name" : "thrift",
+    "keyword" : "thrift"
+  }
+}

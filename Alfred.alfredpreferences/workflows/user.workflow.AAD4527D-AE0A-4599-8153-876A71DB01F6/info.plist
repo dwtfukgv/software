@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>327DB900-CAF3-4784-B804-BAB103099DF7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45CB360B-A2B2-4BB0-82BF-429293796749</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>38D664C3-840D-4FBD-B906-9EA36D3C4DC8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>955B43E0-AE62-4423-9FEE-0033B1ABC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66B12534-3148-48EB-A177-6CBE2C923306</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>14CEEDD8-48B7-4AD7-8B85-9EB0DED303D9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7740676A-A08F-4AC1-BF18-CED8B2264627</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B1683A3C-8368-4F81-BB3E-AB02CF143243</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7BA19E2A-106E-4B9E-AB45-B81B8ECD0B48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>48A5DC1E-189F-409B-9C78-D2EA30D487AC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8816EADE-1ACA-4D60-9F34-15E8C3E948D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>77DBC9FB-B411-4B87-9AC1-8FCA5899710D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>90BEFA55-C32E-4600-88AE-A85BEE2DDF94</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92109346-C3C8-4E80-BA58-7E9983F67BAF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CE0530FC-5CAE-4128-9A4F-08A52C4B53C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E1BB136-7C66-4B83-B11C-F920CB4FB244</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EF1385E0-6097-4D32-B186-313FDADD7E7F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4FF25C70-B22F-4754-9405-9514845AD517</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>dwtfukgv</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>common</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>B1683A3C-8368-4F81-BB3E-AB02CF143243</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>tft</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 /Users/dwtfukgv/script/Cpp/script/alfred.py "tft" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>time format</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7740676A-A08F-4AC1-BF18-CED8B2264627</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>77DBC9FB-B411-4B87-9AC1-8FCA5899710D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>rate</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 /Users/dwtfukgv/script/Cpp/script/alfred.py "rate" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>计算环比</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8816EADE-1ACA-4D60-9F34-15E8C3E948D3</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 /Users/dwtfukgv/script/Cpp/script/alfred.py "ip" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>提取 ip 地址</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>66B12534-3148-48EB-A177-6CBE2C923306</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>14CEEDD8-48B7-4AD7-8B85-9EB0DED303D9</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>qm</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CE0530FC-5CAE-4128-9A4F-08A52C4B53C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set query to "{query}"
+set PAUSE_A to "pause"
+set NEXT to "next"
+set PREVIOUS to "previous"
+set LOVE to "love"
+set LOVE_SHORT to "lv"
+set VOLUME_UP to "volumeup"
+set VOLUME_DOWN to "volumedown"
+set VOLUME_UP_SHORT to "vu"
+set VOLUME_DOWN_SHORT to "vd"
+set OPEN_LYRIC to "lyric"
+set OPEN_LYRIC_SHORT to "ly"
+set EXIT_A to "exit"
+
+
+tell application "System Events" to tell process "QQMusic"
+	if EXIT_A starts with query then
+		-- 处理退出
+		click menu item "退出QQ音乐" of menu "QQ音乐" of menu bar item "QQ音乐" of menu bar 1
+	else
+		-- 控制命令
+		tell menu "播放控制" of menu bar item "播放控制" of menu bar 1
+			if PAUSE_A starts with query then
+				click menu item 1
+			else if NEXT starts with query then
+				click menu item "下一首"
+			else if PREVIOUS starts with query then
+				click menu item "上一首"
+			else if query is equal to VOLUME_UP or query is equal to VOLUME_UP_SHORT then
+				click menu item "音量加"
+			else if query is equal to VOLUME_DOWN or query is equal to VOLUME_DOWN_SHORT then
+				click menu item "音量减"
+			else if query is equal to LOVE or query is equal to LOVE_SHORT then
+				click menu item "喜欢歌曲"
+			else if query is equal to OPEN_LYRIC or query is equal to OPEN_LYRIC_SHORT then
+				click menu item 8
+			end if
+		end tell
+	end if
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E1BB136-7C66-4B83-B11C-F920CB4FB244</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>ssh -i ~/.ssh/id_rsa_jumper -L 8444:{query}:8444 qinpeifa@jumper.sankuai.com</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>955B43E0-AE62-4423-9FEE-0033B1ABC539</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>debug</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>debug 8444</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>38D664C3-840D-4FBD-B906-9EA36D3C4DC8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>python {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>45CB360B-A2B2-4BB0-82BF-429293796749</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>runpy</string>
+				<key>subtext</key>
+				<string>run python</string>
+				<key>text</key>
+				<string>python</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>327DB900-CAF3-4784-B804-BAB103099DF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>arg="{query}"
+result=""
+
+if [ $arg = "pq" ]
+then 
+	result="/Users/dwtfukgv/IdeaProjects/workspace/product_query"
+elif [ $arg = "qa" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/query_async"
+elif [ $arg = "trade" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/trade"
+elif [ $arg = "price" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/price"
+elif [ $arg = "retrieve" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/retrieve"
+elif [ $arg = "basedata" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/basedata"
+elif [ $arg = "bd" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/basedata"
+elif [ $arg = "ta" ]
+then
+	result="/Users/dwtfukgv/IdeaProjects/workspace/trade_async"
+fi
+
+
+if [ -n "$result" ]; then
+	open -na "IntelliJ IDEA.app" --args "$result"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>48A5DC1E-189F-409B-9C78-D2EA30D487AC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>idea</string>
+				<key>subtext</key>
+				<string>open pq、trade、qa、retrieve、ta、price、basedata</string>
+				<key>text</key>
+				<string>idea</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7BA19E2A-106E-4B9E-AB45-B81B8ECD0B48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>uploadHost</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>update host to upload_host.txt</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EF1385E0-6097-4D32-B186-313FDADD7E7F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>/Users/dwtfukgv/script/Cpp/work/data/upload_host.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>4FF25C70-B22F-4754-9405-9514845AD517</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>expect /Users/dwtfukgv/script/Cpp/work/script/upload_file_to_server.exp {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>92109346-C3C8-4E80-BA58-7E9983F67BAF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>expectServer</string>
+				<key>subtext</key>
+				<string>run upload_file_to_server.exp</string>
+				<key>text</key>
+				<string>expectServer</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>90BEFA55-C32E-4600-88AE-A85BEE2DDF94</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>14CEEDD8-48B7-4AD7-8B85-9EB0DED303D9</key>
+		<dict>
+			<key>xpos</key>
+			<real>345</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>327DB900-CAF3-4784-B804-BAB103099DF7</key>
+		<dict>
+			<key>xpos</key>
+			<real>95</real>
+			<key>ypos</key>
+			<real>870</real>
+		</dict>
+		<key>38D664C3-840D-4FBD-B906-9EA36D3C4DC8</key>
+		<dict>
+			<key>xpos</key>
+			<real>100</real>
+			<key>ypos</key>
+			<real>725</real>
+		</dict>
+		<key>3E1BB136-7C66-4B83-B11C-F920CB4FB244</key>
+		<dict>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>45CB360B-A2B2-4BB0-82BF-429293796749</key>
+		<dict>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>48A5DC1E-189F-409B-9C78-D2EA30D487AC</key>
+		<dict>
+			<key>xpos</key>
+			<real>400</real>
+			<key>ypos</key>
+			<real>1020</real>
+		</dict>
+		<key>4FF25C70-B22F-4754-9405-9514845AD517</key>
+		<dict>
+			<key>xpos</key>
+			<real>380</real>
+			<key>ypos</key>
+			<real>1200</real>
+		</dict>
+		<key>66B12534-3148-48EB-A177-6CBE2C923306</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>7740676A-A08F-4AC1-BF18-CED8B2264627</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>77DBC9FB-B411-4B87-9AC1-8FCA5899710D</key>
+		<dict>
+			<key>xpos</key>
+			<real>350</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>7BA19E2A-106E-4B9E-AB45-B81B8ECD0B48</key>
+		<dict>
+			<key>xpos</key>
+			<real>105</real>
+			<key>ypos</key>
+			<real>1025</real>
+		</dict>
+		<key>8816EADE-1ACA-4D60-9F34-15E8C3E948D3</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>90BEFA55-C32E-4600-88AE-A85BEE2DDF94</key>
+		<dict>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>1415</real>
+		</dict>
+		<key>92109346-C3C8-4E80-BA58-7E9983F67BAF</key>
+		<dict>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>1405</real>
+		</dict>
+		<key>955B43E0-AE62-4423-9FEE-0033B1ABC539</key>
+		<dict>
+			<key>xpos</key>
+			<real>400</real>
+			<key>ypos</key>
+			<real>715</real>
+		</dict>
+		<key>B1683A3C-8368-4F81-BB3E-AB02CF143243</key>
+		<dict>
+			<key>xpos</key>
+			<real>350</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>CE0530FC-5CAE-4128-9A4F-08A52C4B53C1</key>
+		<dict>
+			<key>xpos</key>
+			<real>100</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>EF1385E0-6097-4D32-B186-313FDADD7E7F</key>
+		<dict>
+			<key>xpos</key>
+			<real>90</real>
+			<key>ypos</key>
+			<real>1200</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

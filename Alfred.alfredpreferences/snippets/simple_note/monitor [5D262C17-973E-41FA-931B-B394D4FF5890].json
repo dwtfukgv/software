@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "cpu.busy\njvm.thread.count\njvm.thread.blocked.count\njvm.thread.waiting.count\nhulk.nr_throttled\nTcpExt.TCPTimeouts\njvm.memory.metaspace.used\njvm.memory.metaspace.used.percent\njvm.memory.nonheap.used\njvm.memory.nonheap.used.percent\njvm.memory.used\njvm.memory.used.percent\njvm.memory.codecache.used\njvm.memory.codecache.used.percent\njvm.nio.directbuffer.used\nmem.swapused.percent\nmem.swapused\njvm.zgc.cycles.count\njvm.zgc.cycles.meantime\njvm.zgc.cycles.time\njvm.zgc.pauses.count\njvm.zgc.pauses.meantime\njvm.zgc.pauses.time\nnet.if.in.Mbps.all\nnet.if.out.Mbps.all\n",
+    "uid" : "5D262C17-973E-41FA-931B-B394D4FF5890",
+    "name" : "monitor",
+    "keyword" : "monitor"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "jps | grep Boot | awk '{print $1}' | xargs kill -9",
+    "uid" : "4F1FAD35-D483-4DCC-9391-A801C441064D",
+    "name" : "kill",
+    "keyword" : "kill"
+  }
+}
